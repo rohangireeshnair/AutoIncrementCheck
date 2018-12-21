@@ -3,10 +3,10 @@ from slackclient import SlackClient
 
 ######Enter the slack details here####
 
-slack_token = 'xoxp-507960232848-508528273700-508594612211-47dc9dffb5906780c28bbfda7bf6510f'
-channelname = 'mysql-autoincrement'
-uname = 'autoincrementchecker'
-workspaceURL = 'autoincrementchecker.slack.com'
+slack_token = '' #Enter the slack authentication token with the quotes.
+channelname = '' #Enter the slack authentication token with the quotes.
+uname = ''  #Enter the username assigned to the app. For eg. if the permission mentioned in slack for the app is Send Message as incrementchecker then mention incrementchecker.
+workspaceURL = ''#Enter the workspace URL.
 
 ####################
 
