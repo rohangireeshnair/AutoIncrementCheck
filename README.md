@@ -9,6 +9,11 @@ Dependencies: Install the following python modules before running the script
  Before running the script Enter the slack workspace and channel information into slack.py file.
  
  The slack token is obtained by registering the app at https://api.slack.com/apps?new_app=1.
+ On the slack app page the following permissions should be enabled.
+  1.)chat:write:bot
+  2.)incoming-webhook
+  
+  Note: In the chat:write:bot permission the heading will be mentioned as "Send message as xxxxxxxx". This xxxxxxxx is the       username that should be mentioned in the slack.py file.
  
  The script checks for Columns in database with autoincrement and those column's which have less than 10 rows left will be       reported as alert into the channel which is mentioned in slack.py file.
  
